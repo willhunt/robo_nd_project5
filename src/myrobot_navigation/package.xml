@@ -4,21 +4,21 @@
   <version>0.0.0</version>
   <description>The myrobot_navigation package</description>
 
-  <author email="">Will Hunt</author>
-  <maintainer email="">will</maintainer>
+  <author email="willhunt@noemail.com">Will Hunt</author>
+  <maintainer email="willhunt@noemail.com">will</maintainer>
 
   <license>MIT</license>
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>roslaunch</build_depend>
-  <run_depend>amcl</run_depend>
-  <run_depend>gmapping</run_depend>
-  <run_depend>map_server</run_depend>
-  <run_depend>move_base</run_depend>
-  <run_depend>navfn</run_depend>
-  <run_depend>base_local_planner</run_depend>
-  <run_depend>teleop_twist_keyboard</run_depend>
-  <run_depend>teleop_twist_joy</run_depend>
+  <exec_depend>amcl</exec_depend>
+  <exec_depend>gmapping</exec_depend>
+  <exec_depend>map_server</exec_depend>
+  <exec_depend>move_base</exec_depend>
+  <exec_depend>navfn</exec_depend>
+  <exec_depend>base_local_planner</exec_depend>
+  <exec_depend>teleop_twist_keyboard</exec_depend>
+  <exec_depend>teleop_twist_joy</exec_depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>

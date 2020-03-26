@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+    <!-- Args-->
+    <arg name="debug" default="false"/>
+
+    <!-- /Requires build "catkin_make -DCMAKE_BUILD_TYPE=Debug" for debugging with gdb -->
+    <node name="myrobot_markers" pkg="myrobot_markers" type="add_markers" respawn="false" output="screen"
+        launch-prefix="$(eval 'gdb -ex run' if debug else '')"> 
+    </node>
+
+</launch>

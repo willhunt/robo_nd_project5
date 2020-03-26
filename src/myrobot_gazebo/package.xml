@@ -4,15 +4,15 @@
   <version>0.0.0</version>
   <description>Robot for the Go Chase It! project</description>
 
-  <author email="">Will Hunt</author>
-  <maintainer email="">will</maintainer>
+  <author email="willhunt@noemail.com">Will Hunt</author>
+  <maintainer email="willhunt@noemail.com">will</maintainer>
 
   <license>MIT</license>
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>roslaunch</build_depend>
-  <run_depend>robot_state_publisher</run_depend>
-  <run_depend>joint_state_publisher</run_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>joint_state_publisher</exec_depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>

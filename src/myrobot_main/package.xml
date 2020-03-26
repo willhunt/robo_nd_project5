@@ -4,19 +4,19 @@
   <version>0.0.0</version>
   <description>The myrobot_main package</description>
 
-  <author email="">Will Hunt</author>
-  <maintainer email="">will</maintainer>
+  <author email="willhunt@noemail.com">Will Hunt</author>
+  <maintainer email="willhunt@noemail.com">will</maintainer>
 
   <license>MIT</license>
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>roslaunch</build_depend>
-  <run_depend>rviz</run_depend>
+  <exec_depend>rviz</exec_depend>
 
-  <run_depend>myrobot_description</run_depend>
-  <run_depend>myrobot_navigation</run_depend>
-  <run_depend>myrobot_gazebo</run_depend>
-  <run_depend>myrobot_control</run_depend>  
+  <exec_depend>myrobot_description</exec_depend>
+  <exec_depend>myrobot_navigation</exec_depend>
+  <exec_depend>myrobot_gazebo</exec_depend>
+  <exec_depend>myrobot_control</exec_depend>  
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
